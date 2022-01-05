@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func FactoryTest(t *testing.T) {
+func TestFactory(t *testing.T) {
 
 	t.Run("Testing Assert", func(t *testing.T) {
 		// assert equality
